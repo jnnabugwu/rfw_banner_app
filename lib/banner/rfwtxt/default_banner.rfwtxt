@@ -1,0 +1,30 @@
+// Default Banner - SDUI-style banner matching the JSON structure
+import core.widgets;
+import material;
+
+widget root = Container(
+  padding: [16.0],
+  child: Column(
+    mainAxisAlignment: "center",
+    crossAxisAlignment: "center",
+    mainAxisSize: "min",
+    children: [
+      Text(
+        text: "🎉 Welcome to SDUI Banner!",
+        style: {
+          fontSize: 24.0,
+          fontWeight: "bold",
+          color: 0xFFFF6B6B,
+        },
+      ),
+      SizedBox(height: 16.0),
+      Text(
+        text: "This banner is rendered from Remote Flutter Widgets!",
+        style: {
+          fontSize: 16.0,
+          color: 0xFF666666,
+        },
+      ),
+    ],
+  ),
+); 
